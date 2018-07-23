@@ -1,0 +1,52 @@
+{
+	"name": "500pxOnNewTab",
+	"version": "1.0",
+	"description": "Apply an new amazing wallpaper from the 500px website when you want.",
+	"author": {
+    "name": "Rom",
+    "email": "skav@gmx.fr",
+    "url": "https://github.com/xerta555/"
+	},
+	"default_locale": "en",
+	"bugs": {
+    "email": "skav@gmx.fr"
+	},
+	"applications": {
+		"gecko": {
+			"id": "https://github.com/xerta555/",
+			"strict_min_version": "57.0"
+		}
+	}
+	"chrome_url_overrides" : {
+		"newtab": "NewTab.html"
+	},
+	"background": {
+		"scripts": [
+			"settings.js",
+			"background.js",
+			"lib/500pxwall.zip"
+		]
+	],
+	"omnibox": {
+    "keyword" : "newtab"
+	},
+	"icons": {
+		"128": ": "img/main.png",
+	},
+	"default_popup": "action.html",
+	"name": "__MSG_extensionName__",
+	"browser_style": true
+	"permissions": [
+		"<all_urls>",
+		"sessions",
+		"storage",
+		"tabs",
+		"topSites",
+		"webNavigation"
+	]
+	"optional_permissions": [
+		"bookmarks",
+		"downloads",
+	]
+	"manifest_version": 2
+},
