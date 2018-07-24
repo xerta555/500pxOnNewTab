@@ -11,6 +11,6 @@ const NEW_TAB_PAGE = 'html/newtab.html';
 
 @-moz-document url-prefix(about:newtab) {
   html, body, #newtab-customize-overlay {
-  background: url("/walls/image1.jpeg") no-repeat fixed center !important;
+  background: url("file:///walls/image1.jpeg") no-repeat fixed center !important;
   }
 }
