@@ -9,7 +9,7 @@ const LOCAL_FILE_MISSING_PAGE = 'html/local_file_missing.html';
 const FEED_PAGE = 'html/feed.html';
 const NEW_TAB_PAGE = 'html/newtab.html';
 
-@-moz-document url-prefix(about:blank), url-prefix(about:newtab) {
+@-moz-document url-prefix(about:newtab) {
   html, body, #newtab-customize-overlay {
   background: url("/walls/image1.jpeg") no-repeat fixed center !important;
   }
