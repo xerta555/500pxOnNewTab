@@ -1,47 +1,47 @@
 {
-	"name": "__MSG_extensionName__",
-	"version": "1.0",
-	"description": "Apply an new amazing wallpaper from the 500px website when you want.",
-    "author": "Rom",
-    "homepage_url": "https://github.com/xerta555/",
-	"default_locale": "en",
-	"applications": {
-		"gecko": {
-			"id": "500pxOnNewTab@xerta555.github.io",
-			"strict_min_version": "57.0"
-		}
-	},
-	"chrome_url_overrides" : {
-		"newtab": "NewTab.html"
-	},
-	"background": {
-		"scripts": [
-			"settings.js",
-			"background.js",
-			"lib/500pxwall.zip"
-		]
-	},
-	"omnibox": {
-    "keyword" : "newtab"
-	},
-	"icons": {
-		"128": "img/main.png"
-	},
-	"browser_action": {
-		"default_popup": "action.html",
-		"browser_style": true
-	},
-	"permissions": [
-		"<all_urls>",
-		"sessions",
-		"storage",
-		"tabs",
-		"topSites",
-		"webNavigation"
-	],
-	"optional_permissions": [
-		"bookmarks",
-		"downloads"
-	],
-	"manifest_version": 2
+  "name": "__MSG_extensionName__",
+  "version": "1.0",
+  "description": "Apply an new amazing wallpaper from the 500px website when you want.",
+  "icons": {
+    "128": "img/main.png"
+  },
+  "author": "Rom",
+  "homepage_url": "https://github.com/xerta555/",
+  "default_locale": "en",
+  "applications": {
+    "gecko": {
+      "id": "500pxOnNewTab@xerta555.github.io",
+      "strict_min_version": "57.0"
+    }
+  },
+  "chrome_url_overrides": {
+    "newtab": "html/NewTab.html"
+  },
+  "background": {
+    "scripts": [
+      "settings.js",
+      "background.js",
+      "lib/500pxwall.zip"
+    ]
+  },
+  "omnibox": {
+    "keyword": "newtab"
+  },
+  "browser_action": {
+    "default_popup": "action.html",
+    "browser_style": true
+  },
+  "permissions": [
+    "<all_urls>",
+    "sessions",
+    "storage",
+    "tabs",
+    "topSites",
+    "webNavigation"
+  ],
+  "optional_permissions": [
+    "bookmarks",
+    "downloads"
+  ],
+  "manifest_version": 2
 }
