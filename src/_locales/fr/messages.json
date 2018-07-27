@@ -7,5 +7,17 @@
   },
   "defaultNewTabtitle": {
     "message": "Nouvel onglet"
+  },
+  "NewTabTitle": {
+    "message": "Nouvel onglet"
+  },
+  "OptionClickTitle": {
+    "message": "Reglages"
+  },
+  "MenuHome": {
+    "message": "Accueil"
+  },
+  "Click_Popup" {
+    "message":  "Menu des options"
   }
 }
