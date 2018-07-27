@@ -1,3 +1,12 @@
+function openPage() {
+    browser.window.create({
+
+    });
+}
+
+browser.browserAction.onClicked.addListener(openPage);
+
+
 function Download500pximgs() {	
 
 	// Check if files exist, if yes, rename them, if no continue
@@ -22,3 +31,4 @@ function openPage() {
     browser.popup.create({
 
     })
+}
