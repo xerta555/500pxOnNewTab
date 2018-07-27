@@ -1,2 +1,4 @@
 # 500pxOnNewTab
-Alpha WebExtension for Firefox
+WebExtension for Firefox in devlopment.
+
+Min. Firefox version for now: 61.0 (could be edited..)
