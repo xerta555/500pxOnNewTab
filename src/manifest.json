@@ -2,7 +2,7 @@
   "name": "__MSG_extensionName__",
   "version": "1.0",
   "description": "__MSG_description__",
-   "icons": {
+  "icons": {
     "16": "img/image16.png",
     "32": "img/image32.png",
     "64": "img/image64.png",
@@ -33,7 +33,16 @@
     "keyword": "newtab"
   },
   "browser_action": {
-    "default_popup": "action.html",
+    "default_icon": "img/image32-light.png,",
+    "theme_icons": [
+      {
+        "light": "img/image32-light.png",
+        "dark": "img/image32-grey.png",
+        "size": 32
+      }
+    ],
+    "default_title": "__MSG_defaultNewTabtitle__",
+    "default_popup": "html/Actions.html",
     "browser_style": true
   },
   "permissions": [
@@ -42,11 +51,12 @@
     "storage",
     "tabs",
     "topSites",
-    "webNavigation"
+    "webNavigation",
+    "menus"
   ],
   "optional_permissions": [
-    "bookmarks",
-    "downloads"
+  "bookmarks",
+  "downloads"
   ],
   "manifest_version": 2
 }
