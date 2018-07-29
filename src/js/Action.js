@@ -1,3 +1,5 @@
+document.querySelector('#options-content').textContent = browser.i18n.getMessage('Click_Popup')
+
 var renderPopup = function () {
     var elem, text;
 
@@ -11,3 +13,4 @@ var renderPopup = function () {
         'off',
         popupData.pageURL === '' || !popupData.netFilteringSwitch
     );
+}
