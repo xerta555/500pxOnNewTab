@@ -9,7 +9,6 @@ var renderPopup = function () {
 
     elem = document.body;
     elem.classList.toggle('advancedUser', popupData.advancedUserEnabled);
-    elem.classList.toggle(
         'off',
         popupData.pageURL === '' || !popupData.netFilteringSwitch
     );
