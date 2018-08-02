@@ -45,6 +45,9 @@
     "default_popup": "html/Actions.html",
     "browser_style": true
   },
+  "options_ui": {
+    "page": "/html/Options.html"
+  },
   "permissions": [
     "<all_urls>",
     "sessions",
