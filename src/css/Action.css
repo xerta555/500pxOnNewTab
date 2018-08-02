@@ -2,16 +2,19 @@ html, body {
     width: 100px;
 }
 
-.square {
-	width: 280px;
-	height: 80px;
-	background-image: url(/img/background.jpg);
-	border: solid 2px;
-	text-shadow: white 0px 0px 2px;
-	font-size: 16px;
-	background-size: 150px;
-	background-position-y: center;
-	background-size: contain;
+div {
+    width: 320px;
+    height: 176px;
+    background-image: url(/img/background.jpg);
+    text-shadow: white 0px 0px 2px;
+    font-size: 16px;
+    background-size: 150px;
+    background-position: center;
+    background-size: contain;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-image: inherit;
+    background-color: transparent;
 }
 
 .hidden {
