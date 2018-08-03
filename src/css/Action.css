@@ -1,19 +1,17 @@
-html, body {
-    width: 100px;
-}
-
 div {
     width: 320px;
     height: 176px;
-    background-image: url(/img/background.jpg);
+    background: no-repeat center/80% url(/img/background.jpg);
     text-shadow: white 0px 0px 2px;
     font-size: 16px;
-    background-size: 150px;
+    background-size: 176px;
     background-position: center;
     background-size: contain;
-    background-origin: border-box;
+    background-origin: padding-box;
+    background-clip: border-box;
     background-repeat: no-repeat;
-    background-image: inherit;
+    background-image: unset;
+    background-image: initial;
     background-color: transparent;
 }
 
