@@ -1,27 +1,32 @@
 <!DOCTYPE html>
-<html id="500px-popup-panel"</html>
+<html>
 <head>
+    <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=470">
-    <link href="/css/Action.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="/js/Action.js"></script>
-    <title data-i18n='OptionClickTitle'></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/Action.css">
 </head>
-<body>
-    <span id="appname"></span>
-    <div id="popup-content">
-           <div id="popupContainer">
-               <body background="/img/background.jpg">
-                <a href="Options.html" aria-label="aria-labelledby" data-tip-position="under"</a>
-                <div data-i18n='settings_title'/<div>
-                <div id="options-content" class="hidden"></div>
-                </div>
-                
-                   
-                <script src="/js/Action.js"></script>
-                <script src="/js/i18n.js"></script>
-                <script type="text/javascript" src="/js/Action.js"></script>
-                <div id="action"></div>
-        </body>
+    <body>
+        <div id="app" class="card">
+        <div class="card-img">
+            <img height="128" src="/img/image128.png" alt="";">
+        </div>
+        <div class="card-menu">
+            <!hr class="separation" />
+                <h5><a id="clickHome" href="/html/Home.html" target="_blank" data-i18n="MenuHome"></a></h5>
+                <hr>
+                <h5><a id="clickSettings" href="/html/Options.html" target="_blank" data-i18n=Click_Options>&nbsp;</a></h5>
+                <hr>
+                <h5><a id="clickAbout" href="/html/About.html" target="_blank" data-i18n="Click_About"></a></h5>
+
+            </div>
+        </div>
+        </div>
+        
+
+            <script src="/js/Action.js"></script>
+            <script src="/js/i18n.js"></script>
+            <script type="text/javascript" src="/js/Action.js"></script>
+            <div id="action"></div>
 </body>
 </html>
