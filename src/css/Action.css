@@ -1,44 +1,35 @@
-div {
-    width: 320px;
-    height: 176px;
-    background: no-repeat center/80% url(/img/background.jpg);
-    text-shadow: white 0px 0px 2px;
-    font-size: 16px;
-    background-size: 176px;
-    background-position: center;
-    background-size: contain;
-    background-origin: padding-box;
-    background-clip: border-box;
-    background-repeat: no-repeat;
-    background-image: unset;
-    background-image: initial;
-    background-color: transparent;
+.card div {
+    margin: 0;
+    padding: 10px 5px;
+    width: 300px;
 }
 
-.hidden {
-    display: none;
+.card-menu h5 {
+    font-weight: normal;
+    margin: 0;
 }
 
-.button {
-    margin: 3% auto;
-    padding: 4px;
+.card h5 {
+    color: #42b983;
+
+}
+
+.card img {
     text-align: center;
-    font-size: 1.5em;
-    cursor: pointer;
 }
 
-.beast:hover {
-    background-color: #CFF2F2;
+.card .card-img {
+    float: left;
+    width: 25%;
 }
 
-.beast {
-    background-color: #E5F2F2;
+.card .card-menu {
+    float: left;
+    width: 72%;
+    padding-left: 93px;
+    font-size: 135%;
 }
 
-.reset {
-    background-color: #FBFBC9;
-}
-
-.reset:hover {
-    background-color: #EAEA9D;
+.card .card-menu hr {
+    border-color: AliceBlue;
 }
