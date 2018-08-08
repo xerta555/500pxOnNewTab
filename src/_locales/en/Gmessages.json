@@ -1,0 +1,23 @@
+{
+  "extensionName": {
+    "message": "500px Wallpapers New Tab Firefox"
+  },
+  "description": {
+    "message": "Set a new wallpaper from 500px website as background of your New Tab page."
+  },
+  "defaultNewTabtitle": {
+    "message": "New tab"
+  },
+  "NewTabTitle": {
+    "message": "New tab"
+  },
+  "MenuHome": {
+    "message": "Home"
+  },
+  "Click_Options": {
+    "message": "Settings"
+  },
+  "Click_About": {
+    "message": "About"
+  }
+}
