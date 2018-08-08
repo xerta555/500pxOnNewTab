@@ -1,18 +1,24 @@
-document.querySelector('#options-content').textContent = browser.i18n.getMessage('Click_Popup')
+chrome.tabs.query(queryInfo, function (tabs) {
 
-background - image: url('/img/background.jpg');
+    document.querySelector('#popupbck img').src = request.getPopupPath() + '.jpg';
 
-var renderPopup = function () {
-    var elem, text;
+    document.querySelector('#clickSettings').textContent = browser.i18n.getMessage('Click_Popup')
+    document.querySelector('#clickAbout').textContent = browser.i18n.getMessage('Click_About')
 
-    if (popupData.tabTitle) {
-        document.title = popupData.appname + ' - ' + popupData.tabTitle;
-    }
 
-    elem = document.body;
-    elem.classList.toggle('advancedUser', popupData.advancedUserEnabled);
-    elem.classList.toggle(
-        'off',
-        popupData.pageURL === '' || !popupData.netFilteringSwitch
-    );
+    function listenForClicks() {
+        document.addEventListener("click", (e) => {
+
+            function MenuNamesToURL(MenuNames) {
+                switch (MenuNames) {
+                    case data - i18n: "Click_Popup" =
+                        return browser.extension.getURL("html/Options.html");
+                    case data - i18n: "Click_About":
+                        return browser.extension.getURL("html/About.html");
+                    case data - i18n: "Click_Home":
+                        return browser.extension.getURL("html/Home.html");
+                }
+            }
+        }
+        }
 }
