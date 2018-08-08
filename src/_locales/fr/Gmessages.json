@@ -1,0 +1,23 @@
+{
+  "extensionName": {
+    "message": "500px sur Nouvel Onglet"
+  },
+  "description": {
+    "message": "Definir un nouveau fond d'écran depuis le site 500px comme nouvel image de fond de votre page Nouvel onglet."
+  },
+  "defaultNewTabtitle": {
+    "message": "Nouvel onglet"
+  },
+  "NewTabTitle": {
+    "message": "Nouvel onglet"
+  },
+  "MenuHome": {
+    "message": "Accueil"
+  },
+  "Click_Options": {
+    "message": "Réglages"
+  },
+  "Click_About": {
+    "message": "À propos"
+  }
+}
