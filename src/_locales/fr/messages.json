@@ -19,5 +19,26 @@
   },
   "Click_About": {
     "message": "À propos"
+  },
+  "welmessage": {
+    "message": "Bienvenue !\nMerci d'avoir installer cette extension."
+  },
+  "welreq": {
+    "message": "En raison de compatibilité technique, cet addon nécessite d'avoir Firefox version 60 au minimum d'installé."
+  },
+  "weldon": {
+    "message": "Si vous souhaitez faire un don à l'éditeur, veuillez cliquer sur le lien ci-desous.\nCela récompensera le travail ainsi que le temps passé au développement."
+  },
+  "paypallink": {
+    "message": "Lien Paypal"
+  },
+  "welmore": {
+    "message": "Vous souhaitez signaler un bug, émettre un souhait, participer à la traduction ?\nCliquez sur le lien ci-dessous afin d'accéder à la page du dépôt."
+  },
+  "githublink": {
+    "message": "Lien Github"
+  },
+  "home-page": {
+    "message": "Accueil - 500px sur Nouvel Onglet"
   }
 }
