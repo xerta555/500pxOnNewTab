@@ -19,5 +19,26 @@
   },
   "Click_About": {
     "message": "About"
+  },
+  "welmessage": {
+    "message": "Welcome !\nThanks for having install this addon."
+  },
+  "welreq": {
+    "message": "Due to a technical compatibility, this addon require to have Firefox version 60 at least installed."
+  },
+  "weldon": {
+    "message": "If you wish to make a donation to the devlopper, please click on the link below. It will reward the work and time spent in development."
+  },
+  "paypallink": {
+    "message": "Paypal link"
+  },
+  "welmore": {
+    "message": "You wish to report a bug, submit a request, participate in the translation? Click on the link below to access the repository page."
+  },
+  "githublink": {
+    "message": "Github link"
+  },
+  "home-page": {
+    "message": "Home - 500px On New Tab"
   }
 }
