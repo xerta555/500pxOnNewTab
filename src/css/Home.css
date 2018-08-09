@@ -1,0 +1,64 @@
+﻿html, body {
+    margin: 0;
+    background: #ffffff;
+}
+
+.welcome-content div {
+    margin: 0;
+    padding: 1px 1px;
+    width: 300px;
+}
+
+.h2 {
+    margin: 0;
+    padding: 15px;
+}
+
+.welcome-content h2 {
+    padding-left: 55px;
+    margin: 15px;
+}
+
+.welcome-content img {
+    float: left;
+    max-width: 990px;
+    padding: 10px;
+    background-position: left;
+    text-align: center;
+}
+
+.welcome-message div {
+    height: 6em;
+}
+
+
+
+.welcome-message h3 {
+    color: grey;
+    width: 479px;
+    height: 16px;
+    font-family: Verdana;
+    text-align: center;
+    position: absolute;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 5% 0;
+    padding: 20px;
+    visibility: visible;
+}
+
+.welcome-content h2 {
+    color: #0d5fde;
+    font-size: xx-large;
+}
+
+header {
+    background: #00FFFF;
+    padding: 30px;
+}
+
+
+
+
+
+
