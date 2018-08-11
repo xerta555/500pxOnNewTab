@@ -46,7 +46,8 @@
     "browser_style": true
   },
   "options_ui": {
-    "page": "/html/Options.html"
+    "page": "/html/Options.html",
+    "open_in_tab": true
   },
   "permissions": [
     "<all_urls>",
@@ -59,7 +60,8 @@
   ],
   "optional_permissions": [
   "bookmarks",
-  "downloads"
+  "downloads",
+  "browserSettings",
   ],
   "manifest_version": 2
 }
