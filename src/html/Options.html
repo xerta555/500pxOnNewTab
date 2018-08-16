@@ -20,10 +20,10 @@
               <h3 data-i18n="option_selection"></h3>
               <form>
                   <div>
-                      <select name="type" id="type">
-                          <option data-i18n="blanck_update" value="blanck"></option>
-                          <option data-i18n="automatic_update" value="auto"></option>
-                          <option data-i18n="local_update" value="local"></option>
+                      <select id="type" name="type_select" onchange="admSelectCheck(this);">
+                          <option value="blanck" data-i18n="blanck_update"></option>
+                          <option value="auto" data-i18n="automatic_update"></option>
+                          <option id="local" value="0" data-i18n="local_update"></option>
                       </select>
                   </div>
 
@@ -66,10 +66,11 @@
                            <h5 data-i18n="newtab_revoked"></h5>
                        </div>
                    </div>
-                   
+                 </form>  
                        
 
-                   <div id="local-file" class="hidden">
+                   
+                    <div id="admDivCheck" style="display:none;"></div>
                        <h3 data-i18n="local_file_saving"></h3>
                             <span data-i18n="local_file_desc" class="local-file-desc"></span>
                        <br />
@@ -77,11 +78,8 @@
                        <br />
                             <button data-i18n="local_file_remove" type="submit" name="button-local-file-remover" id="local-file-remove" class="button" data-icon-data-confirm="local-file-remove-confirm"</button>
                    </div>
-                  </form>
-              </div>
-               
-          
-        </section>
+                  
+       </section>
     </main>
 
       <script src='/js/extra-permission.js'></script>
