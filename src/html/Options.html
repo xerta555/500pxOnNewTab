@@ -20,7 +20,7 @@
               <h3 data-i18n="option_selection"></h3>
               <form>
                   <div>
-                      <select id="type" name="type_select" onchange="admSelectCheck(this);">
+                      <select id="type" name="type_select">
                           <option value="blanck" data-i18n="blanck_update"></option>
                           <option value="auto" data-i18n="automatic_update"></option>
                           <option id="local" value="0" data-i18n="local_update"></option>
@@ -70,7 +70,7 @@
                        
 
                    
-                    <div id="admDivCheck" style="display:none;"></div>
+                    <div id="admDivCheck" style="display:none;">
                        <h3 data-i18n="local_file_saving"></h3>
                             <span data-i18n="local_file_desc" class="local-file-desc"></span>
                        <br />
@@ -84,5 +84,6 @@
 
       <script src='/js/extra-permission.js'></script>
       <script src='/js/i18n.js'></script>
+      <script src='/js/Options.js'></script>
 </body>
 </html>

@@ -6,18 +6,13 @@ const options = {
 
 };
 
-let admOptionValue = document.getElementById("local").value;
-{
-    if (nameSelect) {
-        admOptionValue = document.getElementById("local").value;
-        if (admOptionValue == nameSelect.value) {
-            document.getElementById("admDivCheck").style.display = "block";
-        }
-        else {
-            document.getElementById("admDivCheck").style.display = "none";
-        }
+let typeSelect = document.getElementById("type")
+typeSelect.addEventListener("change", function () {
+    let admOptionValue = document.getElementById("local").value;
+    if (admOptionValue == typeSelect.value) {
+        document.getElementById("admDivCheck").style.display = "block";
     }
     else {
         document.getElementById("admDivCheck").style.display = "none";
     }
-}
+});

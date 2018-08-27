@@ -61,7 +61,7 @@
   "optional_permissions": [
   "bookmarks",
   "downloads",
-  "browserSettings",
+  "browserSettings"
   ],
   "manifest_version": 2
 }
