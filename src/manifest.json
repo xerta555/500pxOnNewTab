@@ -46,8 +46,7 @@
     "browser_style": true
   },
   "options_ui": {
-    "page": "/html/Options.html",
-    "open_in_tab": true
+    "page": "/html/Options.html"
   },
   "permissions": [
     "<all_urls>",
