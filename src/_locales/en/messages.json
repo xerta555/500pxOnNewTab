@@ -38,7 +38,112 @@
   "githublink": {
     "message": "Github link"
   },
-  "home-page": {
-    "message": "Home - 500px On New Tab"
+  "home-title": {
+    "message": "Home - 500px on New Tab"
+  },
+  "settings-title": {
+    "message": "500pxOnNewTab Settings "
+  },
+  "settings-intro": {
+    "message": "The addon can proceed to the downloading of three wallpapers from 500px website, or you can or you can load your own wallpapers yourself. Both solutions will apply the first wallpaper downloaded in the background on the Firefox New Tab page.You can add as many wallpapers as you want, they will be saved permanently."
+  },
+  "settings-options-newtab": {
+    "message": "Open the settings of the addon in a dedicated tab"
+  },
+  "option_selection": {
+    "message": "Please choosing one of theses way purposed below:"
+  },
+  "blanck_update": {
+    "message": " "
+  },
+  "automatic_update": {
+    "message": "Download of your wallpaper automaticaly"
+  },
+  "local_update": {
+    "message": "Import your wallpaper"
+  },
+  "auto_option_desc": {
+    "message": "The automatic option trigger the automatique download of three first wallpapers  from 500px site."
+  },
+  "period_option_select": {
+    "message": "Please now choosing the time laps to wait before that the addon download tree new wallpapers:"
+  },
+  "period_option_selection": {
+    "message": "Please now select the time between the downloads of the three wallpapers, the type of duration is expressed either in hours, days or once a week (from Monday)"
+  },
+  "1_hours": {
+    "message": "1 hour"
+  },
+  "2_hours": {
+    "message": "2 hours"
+  },
+  "3_hours": {
+    "message": "3 hours"
+  },
+  "one_day": {
+    "message": "one time per day"
+  },
+  "two_day": {
+    "message": "every two days"
+  },
+  "three_day": {
+    "message": "every three days"
+  },
+  "one_week": {
+    "message": "one time per week"
+  },
+  "no_period_validation": {
+    "message": "You must choose a time laps."
+  },
+  "no_local_file": {
+    "message": "You must choose select one wallpaper at least."
+  },
+  "newtab_perm_needed": {
+    "message": "Special permission required !"
+  },
+  "newtab_perm_needed_desc": {
+    "message": "Required permission from you is required for the extension to have read and write access to the Firefox settings, this permission can be revoked at any time. To revoke it, navigate in the 'Home' tab of Firefox, the extension will be indicated after the 'New windows and new tabs' heading."
+  },
+  "newtab_perm_needed_button": {
+    "message": "Grant the special permission"
+  },
+  "newtab_revoker_action": {
+    "message": "Deny the special access to the addon."
+  },
+  "newtab_revoker": {
+    "message": "The button below is used to remove the special access to the addon."
+  },
+  "newtab_revoker_act": {
+    "message": "Remove the special access"
+  },
+  "newtab_revoked": {
+    "message": "The special access is refused to the addon!"
+  },
+  "local_file_saving": {
+    "message": "Save the wallpaper in the addon and apply it"
+  },
+  "local_file_desc": {
+    "message": "Please click on the 'Browse' button to select the wallpaper that you want"
+  },
+  "local_file_remove": {
+    "message": "Deleting the selected wallaper"
+  },
+  "about-title": {
+    "message": "About"
+  },
+  "about-intro": {
+    "message": "This module has been designed to give to the user the hability to change the background image of the New tab page of the browser."
+  },
+  "about-prez": {
+    "message": "The WebExntesions APIs used are following:"
+  },
+  "about-api": {
+    "message": "With the help of the WebExntesion API chrome_url_overrides, to replace the content of a particular page with content."
+  },
+  "about-js-prez": {
+    "message": "JavaScipt API used:"
+  },
+  "about-js": {
+    "message": "The JavaScript API admOptionValue, allowing the disaply of the wallpaper import menu from the computer"
   }
 }
