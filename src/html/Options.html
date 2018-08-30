@@ -12,78 +12,86 @@
         <h1 data-i18n="settings-title"></h1>
     </header>
     <div id='settings-intro'>
-        <div id="settings-intro" span data-i18n="settings-intro"></div span>
+        <div id="settings-intro" span data-i18n="settings-intro"></div>
+    </div>
+    <br />
+    <br />
+    <div>
+        <label class="input-label">
+            <input type="checkbox" data-key="settings-options-newtab"> <span data-i18n="settings-options-newtab"></span>
+        </label>
     </div>
     <main>
         <section>
             <div class="option-selection">
-              <h3 data-i18n="option_selection"></h3>
-              <form>
-                  <div>
-                      <select id="type" name="type_select">
-                          <option value="blanck" data-i18n="blanck_update"></option>
-                          <option value="auto" data-i18n="automatic_update"></option>
-                          <option id="local" value="0" data-i18n="local_update"></option>
-                      </select>
-                  </div>
+                <h3 data-i18n="option_selection"></h3>
+                <form>
+                    <div>
+                        <select id="type" name="type_select">
+                            <option value="blanck" data-i18n="blanck_update"></option>
+                            <option value="auto" data-i18n="automatic_update"></option>
+                            <option id="local" value="0" data-i18n="local_update"></option>
+                        </select>
+                    </div>
 
-                  <div id="auto-option" class="hidden">
-                      <div data-i18n="auto_option_desc" class="icon-info">
-                          <h4 data-i18n="period_option_select"</h4>
-                          <label data-i18n="period_option_selection" for="url" class="hidden-label"></label>
-                          <select name="period-option-select" id="period-option-select">
-                              <option data-i18n="1_hours" value="1-hours"></option>
-                              <option data-i18n="2_hours" value="2-hours"></option>
-                              <option data-i18n="3_hours" value="3-hours"></option>
-                              <option data-i18n="one_day" value="one-day"></option>
-                              <option data-i18n="two_day" value="two-day"></option>
-                              <option data-i18n="three_day" value="three-day"></option>
-                              <option data-i18n="one_week" value="one-week"></option>
-                          </select>
-                          <span data-i18n="no_period_validation" class="no-period-validation"></span>
-                          <span data-i18n="no_local_file" class="no-local-file"></span>
-                      </div>
-                  </div>
-
-                  <br />
-                  <div id="newtab-perm-needed" class="hidden">
-                      <h3 data-i18n="newtab_perm_needed"></h3>
-                        <div id="perm-req-text" data-i18n="newtab_perm_needed_desc" class="icon-info"></div>
-                      <br />
-                        <div id="newtab-perm-button">
-                          <button data-i18n="newtab_perm_needed_button" type="submit" name="newtab_perm_button" id="newtab-perm-button" class="button"></button>
+                    <div id="auto-option" class="hidden">
+                        <div data-i18n="auto_option_desc" class="icon-info">
+                            <h4 data-i18n="period_option_select"</h4>
+                            <label data-i18n="period_option_selection" for="url" class="hidden-label"></label>
+                            <select name="period-option-select" id="period-option-select">
+                                <option data-i18n="1_hours" value="1-hours"></option>
+                                <option data-i18n="2_hours" value="2-hours"></option>
+                                <option data-i18n="3_hours" value="3-hours"></option>
+                                <option data-i18n="one_day" value="one-day"></option>
+                                <option data-i18n="two_day" value="two-day"></option>
+                                <option data-i18n="three_day" value="three-day"></option>
+                                <option data-i18n="one_week" value="one-week"></option>
+                            </select>
+                            <span data-i18n="no_period_validation" class="no-period-validation"></span>
+                            <span data-i18n="no_local_file" class="no-local-file"></span>
                         </div>
-                  </div>
-              </form>
-              <form>
-                   <div id="revoker" class="hidden">
-                        <h3 data-i18n="newtab_revoker_action"></h3>
-                            <div id="revoker-text" data-i18n="newtab_revoker" class="icon-info"></div>
-                             <br />
-                   
-                       <div id="revoker-button">
-                           <button data-i18n="newtab_revoker_act" type="submit" name="revoker-button" id="revoker-button" class="button"></button>
-                           <h5 data-i18n="newtab_revoked"></h5>
-                       </div>
-                   </div>
-                 </form>  
-                       
+                    </div>
 
-                   
-                    <div id="admDivCheck" style="display:none;">
-                       <h3 data-i18n="local_file_saving"></h3>
-                            <span data-i18n="local_file_desc" class="local-file-desc"></span>
-                       <br />
-                            <input type="file" id="local-file" class="button" accept=".jpeg, .jpg, .png, .gif, .bmp, .tiff, .svg" />
-                       <br />
-                            <button data-i18n="local_file_remove" type="submit" name="button-local-file-remover" id="local-file-remove" class="button" data-icon-data-confirm="local-file-remove-confirm"</button>
-                   </div>
-                  
-       </section>
+                    <br />
+                    <div id="newtab-perm-needed" class="hidden">
+                        <h3 data-i18n="newtab_perm_needed"></h3>
+                        <div id="perm-req-text" data-i18n="newtab_perm_needed_desc" class="icon-info"></div>
+                        <br />
+                        <div id="newtab-perm-button">
+                            <button data-i18n="newtab_perm_needed_button" type="submit" name="newtab_perm_button" id="newtab-perm-button" class="button"></button>
+                        </div>
+                    </div>
+                </form>
+                <form>
+                    <div id="revoker" class="hidden">
+                        <h3 data-i18n="newtab_revoker_action"></h3>
+                        <div id="revoker-text" data-i18n="newtab_revoker" class="icon-info"></div>
+                        <br />
+
+                        <div id="revoker-button">
+                            <button data-i18n="newtab_revoker_act" type="submit" name="revoker-button" id="revoker-button" class="button"></button>
+                            <h5 data-i18n="newtab_revoked"></h5>
+                        </div>
+                    </div>
+                </form>
+
+
+
+                <div id="admDivCheck" style="display:none;">
+                    <h3 data-i18n="local_file_saving"></h3>
+                    <span data-i18n="local_file_desc" class="local-file-desc"></span>
+                    <br />
+                    <input type="file" id="local-file" class="button" accept=".jpeg, .jpg, .png, .gif, .bmp, .tiff, .svg" />
+                    <br />
+                    <button data-i18n="local_file_remove" type="submit" name="button-local-file-remover" id="local-file-remove" class="button" data-icon-data-confirm="local-file-remove-confirm"</button>
+                </div>
+            </div>
+        </section>
     </main>
 
-      <script src='/js/extra-permission.js'></script>
-      <script src='/js/i18n.js'></script>
-      <script src='/js/Options.js'></script>
+    <script src='/js/extra-permission.js'></script>
+    <script src="/js/common.js"></script>
+    <script src='/js/i18n.js'></script>
+    <script src='/js/Options.js'></script>
 </body>
 </html>
