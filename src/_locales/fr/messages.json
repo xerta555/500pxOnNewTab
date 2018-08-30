@@ -1,128 +1,149 @@
 {
   "extensionName": {
-    "message": "500px Wallpapers New Tab Firefox"
+    "message": "500px sur Nouvel Onglet"
   },
   "description": {
-    "message": "Set a new wallpaper from 500px website as background of your New Tab page."
+    "message": "Definir un nouveau fond d'écran depuis le site 500px comme nouvel image de fond de votre page Nouvel onglet."
   },
   "defaultNewTabtitle": {
-    "message": "New tab"
+    "message": "Nouvel onglet"
   },
   "NewTabTitle": {
-    "message": "New tab"
+    "message": "Nouvel onglet"
   },
   "MenuHome": {
-    "message": "Home"
+    "message": "Accueil"
   },
   "Click_Options": {
-    "message": "Settings"
+    "message": "Réglages"
   },
   "Click_About": {
-    "message": "About"
+    "message": "À propos"
   },
   "welmessage": {
-    "message": "Welcome !\nThanks for having install this addon."
+    "message": "Bienvenue !\nMerci d'avoir installer cette extension."
   },
   "welreq": {
-    "message": "Due to a technical compatibility, this addon require to have Firefox version 60 at least installed."
+    "message": "En raison de compatibilité technique, cet addon nécessite d'avoir Firefox version 60 au minimum d'installé."
   },
   "weldon": {
-    "message": "If you wish to make a donation to the devlopper, please click on the link below. It will reward the work and time spent in development."
+    "message": "Si vous souhaitez faire un don à l'éditeur, veuillez cliquer sur le lien ci-desous.\nCela récompensera le travail ainsi que le temps passé au développement."
   },
   "paypallink": {
-    "message": "Paypal link"
+    "message": "Lien Paypal"
   },
   "welmore": {
-    "message": "You wish to report a bug, submit a request, participate in the translation? Click on the link below to access the repository page."
+    "message": "Vous souhaitez signaler un bug, émettre un souhait, participer à la traduction ?\nCliquez sur le lien ci-dessous afin d'accéder à la page du dépôt."
   },
   "githublink": {
-    "message": "Github link"
+    "message": "Lien Github"
   },
   "home-title": {
-    "message": "Home - 500px on New Tab"
+    "message": "Accueil - 500px sur Nouvel Onglet"
   },
   "settings-title": {
-    "message": "500pxOnNewTab Settings "
+    "message": "Réglages 500pxOnNewTab"
   },
   "settings-intro": {
-    "message": "The addon can proceed to the downloading of three wallpapers from 500px website, or you can or you can load your own wallpapers yourself. Both solutions will apply the first wallpaper downloaded in the background on the Firefox New Tab page.You can add as many wallpapers as you want, they will be saved permanently."
+    "message": "L'extension peut procéder au télécharger de trois fond d'écrans provenant du site web 500px, ou bien vous pouvez vous-même charger vos propres fond d'écrans. Les deux solutions appliqueront le premier fond d'écran téléchargé en arrière-plan sur la page Nouvel onglet de Firefox. Vous pouvez ajouter autant de fond d'écran que vous le désirez, ils seront conservés en permanence."
+  },
+  "settings-options-newtab": {
+    "message": "Ouvrir les réglage de l'extension dans un onglet dédié"
   },
   "option_selection": {
-    "message": "Please choosing one of theses way purposed below:"
+    "message": "Veuillez choisir l'une des méthodes proposées ci-dessous:"
   },
   "blanck_update": {
     "message": " "
   },
   "automatic_update": {
-    "message": "Download of your wallpaper automaticaly"
+    "message": "Téléchargement de votre fond d'écran automatique"
   },
   "local_update": {
-    "message": "Import your wallpaper"
+    "message": "Importer vos fonds d'écrans"
   },
   "auto_option_desc": {
-    "message": "The automatic option trigger the automatique download of three first wallpapers  from 500px site."
+    "message": "L'option automatique déclenche le téléchargement automatique de trois premiers fond d'écrans provenant du site 500px."
   },
   "period_option_select": {
-    "message": "Please now choosing the time laps to wait before that the addon download tree new wallpapers:"
+    "message": "Veuillez à présent choisir le laps de temps à attendre avant que l'extension ne télécharge trois nouveaux fonds d'écrans:"
   },
   "period_option_selection": {
-    "message": "Please now select the time between the downloads of the three wallpapers, the type of duration is expressed either in hours, days or once a week (from Monday)"
+    "message": "Veuillez à présent sélectionner le temps entre les téléchargements des trois fonds d'écrans, le type de durée est exprimé soit en heures, soit en jours ou une fois par semaine (à partir du lundi)"
   },
   "1_hours": {
-    "message": "1 hour"
+    "message": "1 heure"
   },
   "2_hours": {
-    "message": "2 hours"
+    "message": "2 heures"
   },
   "3_hours": {
-    "message": "3 hours"
+    "message": "3 heures"
   },
   "one_day": {
-    "message": "one time per day"
+    "message": "une fois par jours"
   },
   "two_day": {
-    "message": "every two days"
+    "message": "tous les deux jours"
   },
   "three_day": {
-    "message": "every three days"
+    "message": "tous les trois jours"
   },
   "one_week": {
-    "message": "one time per week"
+    "message": "une fois par semaine"
   },
   "no_period_validation": {
-    "message": "You must choose a time laps."
+    "message": "Vous devez sélectionner une période de temps."
   },
   "no_local_file": {
-    "message": "You must choose select one wallpaper at least."
+    "message": "Vous devez sélectionner au moins une image."
   },
   "newtab_perm_needed": {
-    "message": "Special permission required !"
+    "message": "Permission spéciale requise !"
   },
   "newtab_perm_needed_desc": {
-    "message": "Required permission from you is required for the extension to have read and write access to the Firefox settings, this permission can be revoked at any time. To revoke it, navigate in the 'Home' tab of Firefox, the extension will be indicated after the 'New windows and new tabs' heading."
+    "message": "Une permission requise de votre part est nécessaire pour que l'extension ait un accès en lecture et en écriture aux réglages de Firefox, cette autorisation peut être révoqué à n'importe quel moment. Pour la révoquer, naviguez dans l'onglet 'Accueil' de Firefox, l'extension sera indiqué après la rubrique 'Nouvelles fenêtres et nouveaux onglets'."
   },
   "newtab_perm_needed_button": {
-    "message": "Grant the special permission"
+    "message": "Accorder la permission spéciale"
   },
   "newtab_revoker_action": {
-    "message": "Deny the special access to the addon."
+    "message": "Interdire l'accès spécial à l'extension."
   },
   "newtab_revoker": {
-    "message": "The button below is used to remove the special access to the addon."
+    "message": "Le boutton ci-dessous sert à retirer l'accès spéciale à l'extension."
   },
   "newtab_revoker_act": {
-    "message": "Remove the special access"
+    "message": "Retirer l'accès spécial"
   },
   "newtab_revoked": {
-    "message": "The special access is refused to the addon!"
+    "message": "La permission spéciale est refusée à l'extension!"
   },
   "local_file_saving": {
-    "message": "Save the wallpaper in the addon and apply it"
+    "message": "Enregistrer le fond d'écran dans l'extension et l'appliquer"
   },
   "local_file_desc": {
-    "message": "Please click on the 'Browse' button to select the wallpaper that you want"
+    "message": "Veuillez cliquer sur le boutton 'Parcourir' afin de sélectionner le fonds d'écran que vous souhaitez"
   },
   "local_file_remove": {
-    "message": "Deleting the selected wallaper"
+    "message": "Supprimer le fond d'écran choisis"
+  },
+  "about-title": {
+    "message": "A propos"
+  },
+  "about-intro": {
+    "message": "Ce module a été conçu pour donner à l'utilisateur la possibilité de changer l'image de fond de la page nouvel onglet du navigateur."
+  },
+  "about-prez": {
+    "message": "API WebExtension utilisée:"
+  },
+  "about-api": {
+    "message": "Grace à l'API WebExtension chrome_url_overrides, permettant de remplacer le contenu d'une page en particulier par du contenu"
+  },
+  "about-js-prez": {
+    "message": "API JavaScipt utilisée:"
+  },
+  "about-js": {
+    "message": "L'API JavaScript admOptionValue, permettant l'affichage du menu d'import de fond d'écran depuis l'ordinateur"
   }
 }
