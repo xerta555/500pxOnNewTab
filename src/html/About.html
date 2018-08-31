@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html>
 <head>
@@ -17,40 +17,71 @@
         <div id="about-intro" span data-i18n="about-intro"></div>
     </div>
     <main>
-        <div id="about-separator">
-            <style>
-                .vl {
-                    border-left: 6px solid #6495ED;
-                    height: 400px;
-                }
-            </style>
-            <div class="vl"></div>
+        <style>
+            #about-dev {
+                display: flex;
+                flex-direction: row;
+            }
 
-            <div class="about-mdn">
-                <br />
+            #about-mdn, about-dev {
+                flex: 1;
+            }
+
+            #div.vl {
+                background-color: blue;
+                width: 6px;
+            }
+        </style>
+        <div id="container">
+            <div id="about-mdn">
                 <img src="/img/mdn.png" alt="newtab-screenshoot" height="109" width="500" />
+                <div class="about-webex-js">
+                    <div class="about-webex-api">
+                        <h2 class="about-prez" data-i18n="about-prez"></h2>
+                        <ul class="about-api-list">
+                            <li><p class="about-api" data-i18n="about-api"></p></li>
+                        </ul>
+                    </div>
+                    <div class="about-js-api">
+                        <h2 class="about-js-prez" data-i18n="about-js-prez"></h2>
+                        <ul class="about-js-list">
+                            <li><p class="about-js" data-i18n="about-js"></p></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="about-webex-api">
-                <h2 class="about-prez" data-i18n="about-prez"></h2>
-                <ul class="about-api-list">
-                    <li><p class="about-api" data-i18n="about-api"></p></li>
-                </ul>
+            <div class="vl">
+                <div id="about-separator">
+                    <style>
+                        .vl {
+                            border-left: 6px solid #6495ED;
+                            height: 400px;
+                        }
+                    </style>
+                </div>
             </div>
-            <div class="about-js-api">
-                <h2 class="about-js-prez" data-i18n="about-js-prez"></h2>
-                <ul class="about-js-list">
-                    <li><p class="about-js" data-i18n="about-js"></p></li>
-                </ul>
+
+            <div id="about-dev">
+                <div class="about-github">
+                    <br />
+                    <img src="/img/github.png" alt="newtab-github" height="281" width="500" />
+                </div>
+                <div class="about-git">
+                    <h2 class="about-git-prez" data-i18n="about-git-prez"></h2>
+                    <ul class="about-git-list">
+                        <li><p class="about-git-liscence" data-i18n="about-git-liscence"</p></li>
+                    </ul>
+                    <a href="https://github.com/xerta555/500pxOnNewTab/" data-i18n="about-git-link"></a>
+                </div>
             </div>
         </div>
-
 
     </main>
 
 
 
 
-    <script src='/js/i18n.js'></script>
-    <script src='/js/About.js'></script>
-</body>
-</html>
+                <script src='/js/i18n.js' > </script >
+                <script src='/js/About.js' > </script >
+                </body >
+                </html >
