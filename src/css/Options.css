@@ -61,6 +61,12 @@ section {
     flex: 1 0 auto;
 }
 
+@media screen and (min-width: 900px) {
+    section > div {
+        /*width: calc(105vw - 550px);*/
+    }
+}
+
 .grey-bg {
     box-sizing: border-box;
     padding: 20px;
@@ -150,12 +156,6 @@ div.info-icon {
 
 span > local-file-desc {
     margin-left: 10px;
-}
-
-@media screen and (min-width: 900px) {
-    section > div {
-        width: calc(105vw - 550px);
-    }
 }
 
 .div perm-req.text.icon-info {
