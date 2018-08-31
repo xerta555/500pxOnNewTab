@@ -1,129 +1,87 @@
-﻿html, body {
-    margin: 0;
-    background-image: url('/img/home-wall1.png');
-    background-size: cover;
-}
+<!DOCTYPE html>
 
-header {
-    background-color: darkgrey;
-    padding: 17px 10px;
-    line-height: 70px;
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title data-i18n='about-title'></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel='stylesheet' href='/css/About.css' />
+    <style type="text/css"></style>
+    <link rel='icon' type='img/png' href='/img/image256.png' />
+</head>
+<body>
+    <header>
+        <h1 data-i18n="about-title"></h1>
+    </header>
+    <div id="about-intro">
+        <div id="about-intro" span data-i18n="about-intro"></div>
+    </div>
+    <main>
+        <style>
+            #about-dev {
+                display: flex;
+                flex-direction: row;
+            }
 
-}
+            #about-mdn, about-dev {
+                flex: 1;
+            }
 
-header h1 {
-    color: cornflowerblue;
-    text-align: center;
-    font-size: 45px;
-}
+            #div.vl {
+                background-color: blue;
+                width: 6px;
+            }
+        </style>
+        <div id="container">
+            <div id="about-mdn">
+                <img src="/img/mdn.png" alt="newtab-screenshoot" height="109" width="500" />
+                <div class="about-webex-js">
+                    <div class="about-webex-api">
+                        <h2 class="about-prez" data-i18n="about-prez"></h2>
+                        <ul class="about-api-list">
+                            <li><p class="about-api" data-i18n="about-api"></p></li>
+                        </ul>
+                    </div>
+                    <div class="about-js-api">
+                        <h2 class="about-js-prez" data-i18n="about-js-prez"></h2>
+                        <ul class="about-js-list">
+                            <li><p class="about-js" data-i18n="about-js"></p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="vl">
+                <div id="about-separator">
+                    <style>
+                        .vl {
+                            border-left: 6px solid #6495ED;
+                            height: 400px;
+                        }
+                    </style>
+                </div>
+            </div>
 
-main {
-    
-}
+            <div id="about-dev">
+                <div class="about-github">
+                    <br />
+                    <img src="/img/github.png" alt="newtab-github" height="281" width="500" />
+                </div>
+                <div class="about-git">
+                    <h2 class="about-git-prez" data-i18n="about-git-prez"></h2>
+                    <ul class="about-git-list">
+                        <li><p class="about-git-liscence" data-i18n="about-git-liscence"</p></li>
+                    </ul>
+                    <a href="https://github.com/xerta555/500pxOnNewTab/" data-i18n="about-git-link"></a>
+                </div>
+            </div>
+        </div>
 
-#text {
-    font-weight: bold;
-}
-
-div#about-intro {
-    color: darkcyan;
-    margin-top: 1.2%;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 17px;
-    text-align: center;
-    box-sizing: content-box;
-    padding: 5px;
-    margin-bottom: 30px;
-}
-
-p.about-prez {
-    width: calc(108vw - 870px);
-    color: rgb(100, 149, 237);
-    font-weight: bold;
-    margin-left: 18px;
-}
-
-p.about-api {
-    width: calc(95vw - 870px);
-    color: rgb(100, 149, 237);
-    font-weight: bold;
-    padding-left: 10px;
-    list-style: inside;
-}
-
-p.about-js {
-    width: calc(95vw - 870px);
-    color: rgb(100, 149, 237);
-    font-weight: bold;
-    padding-left: 10px;
-    list-style: inside;
-}
-
-.vl {
-    position: absolute;
-    left: 50%;
-    margin-left: -3px;
-    top: 350px;
-}
-
-p.fa {
-    position: relative;
-    top: 5px;
-    left: 5px;
-}
-
-div.about-api {
-    margin-top: 30px;
-}
-
-p.fa h2 {
-    border-left: 20px solid;
-}
-
-.fa {
-    display: inline-block;
-    color: cadetblue;
-}
-
-h2.about-prez {
-    padding-left: 40px;
-    background: url('/img/arrow.png') no-repeat;
-    background-size: 20px;
-    background-position: 12px -1px ;
-    background-repeat: no-repeat;
-}
-
-div.left-arrow {
-    content: '\25BA';
-}
-
-.right-arrow:before {
-    content: '\25BA';
-}
-
-div#about-separator {
-    width: calc(110vw - 870px);
-}
-
-div.about-mdn img {
-    margin-left: 50px;
-}
-
-.alignleft {
-    float: left;
-}
-
-.alignright {
-    float: right;
-}
-
-h2.about-js-prez {
-    padding-left: 40px;
-    background: url('/img/arrow.png') no-repeat;
-    background-size: 20px;
-    background-position: 12px -1px;
-    background-repeat: no-repeat;
-}
+    </main>
 
 
+
+
+                <script src='/js/i18n.js' > </script >
+                <script src='/js/About.js' > </script >
+                </body >
+                </html >
