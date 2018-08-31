@@ -1,6 +1,6 @@
-﻿html, body {
+html, body {
     margin: 0;
-    background: #ffffff;
+    /*background: #ffffff;*/
 }
 
 header {
@@ -18,7 +18,28 @@ div#settings-intro {
     padding-left: 5px;
     margin-top: 25px;
     margin-bottom: 13px;
-    margin: 10px 310px 5px 5px;
+    /*margin: 10px 310px 5px 5px;*/
+}
+
+@media screen and (max-width: 900px) {
+    main {
+        display: block;
+    }
+
+    section > div {
+        margin: 0;
+        /*width: calc(100vw - 550px);*/
+    }
+
+    aside > div {
+        margin: 20px 0;
+    }
+}
+
+.option-selection h3 {
+    padding: 15px;
+    background: rgb(195, 195, 195);
+    color: rgb(0, 148, 255);
 }
 
 h1 {
@@ -60,12 +81,6 @@ h3:first-child {
     padding: 10px;
     background: rgb(128, 128, 128);
     color: rgb(255, 255, 255);
-}
-
-.option-selection h3 {
-    padding: 15px;
-    background: rgb(195, 195, 195);
-    color: rgb(0, 148, 255);
 }
 
 .button {
@@ -145,21 +160,6 @@ span > local-file-desc {
 
 .div perm-req.text.icon-info {
     margin-left: 5px;
-}
-
-@media screen and (max-width: 900px) {
-    main {
-        display: block;
-    }
-
-    section > div {
-        margin: 0;
-        width: calc(100vw - 550px);
-    }
-
-    aside > div {
-        margin: 20px 0;
-    }
 }
 
 @media screen and (max-width: 619px) {
