@@ -4,6 +4,13 @@ chrome.tabs.query(queryInfo, function (tabs) {
 
     document.querySelector('#clickSettings').textContent = browser.i18n.getMessage('Click_Popup')
     document.querySelector('#clickAbout').textContent = browser.i18n.getMessage('Click_About')
+    document.querySelector('#clickSettings').addEventListener('click', async (event) => {
+        event.preventDefault();
+        if ((await browser.storage.local.get()).showOptionsInDedicatedTab)
+            void browser.tabs.create({ url: browser.runtime.getURL('/html/Options.html') });
+        else
+            void browser.runtime.openOptionsPage();
+    });
 
 
     function listenForClicks() {
@@ -21,12 +28,5 @@ chrome.tabs.query(queryInfo, function (tabs) {
             }
         }
         }
-}
 
-document.querySelector('#clickSettings').addEventListener('click', async (event) => {
-    event.preventDefault();
-        if ((await browser.storage.local.get()).showOptionsInDedicatedTab)
-            void browser.tabs.create({ url: browser.runtime.getURL('/html/Options.html') });
-        else
-            void browser.runtime.openOptionsPage();
-});
+}
