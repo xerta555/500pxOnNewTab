@@ -15,7 +15,7 @@ html, body {
 }
 
 #vl {
-    background-color: blue;
+    background-color: coral;
     width: 6px;
 }
 
@@ -30,10 +30,6 @@ header h1 {
     color: cornflowerblue;
     text-align: center;
     font-size: 45px;
-}
-
-main {
-    
 }
 
 #text {
@@ -60,16 +56,21 @@ p.about-prez {
 }
 
 p.about-api {
-    width: calc(95vw - 870px);
-    color: rgb(100, 149, 237);
+    width: calc(95vw - 700px);
+    color: coral;
     font-weight: bold;
     padding-left: 10px;
     list-style: inside;
 }
 
+div.about-js-api {
+    width: calc(95vw - 700px);
+    color: coral;
+}
+
 p.about-js {
-    width: calc(95vw - 870px);
-    color: rgb(100, 149, 237);
+    width: calc(95vw - 700px);
+    color: coral;
     font-weight: bold;
     padding-left: 10px;
     list-style: inside;
@@ -105,8 +106,9 @@ h2.about-prez {
     padding-left: 40px;
     background: url('/img/arrow.png') no-repeat;
     background-size: 20px;
-    background-position: 12px -1px ;
+    background-position: 12px -1px;
     background-repeat: no-repeat;
+    color: coral;
 }
 
 div.left-arrow {
@@ -139,11 +141,12 @@ h2.about-js-prez {
     background-size: 20px;
     background-position: 12px -1px;
     background-repeat: no-repeat;
+    color: coral;
 }
 
 ul.about-git-list {
     width: calc(95vw - 870px);
-    color: rgb(100, 149, 237);
+    color: coral;
     font-weight: bold;
     /*padding-left: -10px;*/
 }
@@ -154,13 +157,30 @@ h2.about-git-prez {
     background-size: 20px;
     background-position: 12px -1px;
     background-repeat: no-repeat;
+    color: coral;
 }
 
 p.about-git-liscence {
     width: calc(95vw - 870px);
-    color: rgb(100, 149, 237);
+    color: coral;
     font-weight: bold;
     padding-left: 10px;
     list-style: inside;
 }
 
+div#about-git {
+    margin-left: 22px;
+}
+
+div#about-mdn {
+    margin-left: 22px;
+}
+
+a {
+    margin-left: 22px;
+    color: coral;
+}
+
+li {
+    color: coral;
+}
